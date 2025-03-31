@@ -173,11 +173,11 @@ python tools/tscd_demo.py -f exps/TSCD_VID/VID_tscd_large.py -c [path to your we
 
 <div align="center">
 
-  <img src="./visual/imagenet_vid/fox.gif" width="33%" height="210"/>
+  <img src="./visual/imagenet_vid/fox.gif" width="30%" height="210"/>
 
-  <img src="./visual/imagenet_vid/horse.gif" width="33%" height="210"/>
+  <img src="./visual/imagenet_vid/horse.gif" width="30%" height="210"/>
 
-  <img src="./visual/imagenet_vid/bear.gif" width="33%" height="210"/>
+  <img src="./visual/imagenet_vid/bear.gif" width="30%" height="210"/>
 
 </div>
 
@@ -218,11 +218,11 @@ python tools/tscd_demo.py -f exps/TSCD_VID/VID_tscd_large.py -c [path to your we
 
 <div align="center">
 
-  <img src="./visual/ovis/elephant.gif" width="33%" height="210"/>
+  <img src="./visual/ovis/elephant.gif" width="30%" height="210"/>
 
-  <img src="./visual/ovis/giant_panda.gif" width="33%" height="210"/>
+  <img src="./visual/ovis/giant_panda.gif" width="30%" height="210"/>
 
-  <img src="./visual/ovis/zebra.gif" width="33%" height="210"/>
+  <img src="./visual/ovis/zebra.gif" width="30%" height="210"/>
 
 </div>
 

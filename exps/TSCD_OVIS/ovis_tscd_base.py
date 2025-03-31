@@ -18,7 +18,7 @@ class Exp(MyExp):
         self.exp_name = os.path.split(os.path.realpath(__file__))[1].split(".")[0]
         self.backbone_name = 'MCSP'
         # Define yourself dataset path
-        self.data_dir = "/home/ubuntu/lkh/datasets/ovis"  # set your dataset path
+        self.data_dir = "path to your datasets"  # set your dataset path
         self.train_ann = "annotations/ovis_train_vid.json"  # set your train annotation file
         self.val_ann = "annotations/ovis_valid_vid.json"  # set your val annotation file
 
