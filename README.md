@@ -168,21 +168,25 @@ python tools/tscd_demo.py -f exps/TSCD_VID/VID_tscd_large.py -c [path to your we
 
 <div align="center">
   <img src="assets/ImageNet_VID_Results.png" alt="ImageNet VID Results" />
+  <p align="center">Table. 2. Performance comparison with SOTA end-to-end video object detections on the ImageNet VID validation set.</p>
 </div>
 
-[//]: # (<p align="center">)
+<div align="center">
 
-[//]: # ()
-[//]: # (![ImageNet VID Results]&#40;./assets/ImageNet_VID_Results.png&#41;)
+  <img src="./visual/imagenet_vid/fox.gif" width="480" height="360"/>
+  <img src="./visual/imagenet_vid/horse.gif" width="480" height="360"/>
+  <img src="./visual/imagenet_vid/bear.gif" width="480" height="360"/>
 
-[//]: # ()
-[//]: # (</p>)
+</div>
+<p align="center">Video. 1. Video visualization of TSCD detection in ImageNet VID occlusion scenes</p>
 
-<p align="center">Table. 2. Performance comparison with SOTA end-to-end video object detections on the ImageNet VID validation set.</p>
+<div align="center">
 
-![ImageNet VID Visual](assets/ImageNet.png)
+  ![ImageNet VID Visual](assets/ImageNet.png)
 
-<p align="center">Fig. 2. Visual comparison of competing models on the ImageNet VID dataset.</p>
+  <p align="center">Fig. 2. Visual comparison of competing models on the ImageNet VID dataset.</p>
+
+</div>
 
 <br/>
 
@@ -191,21 +195,26 @@ python tools/tscd_demo.py -f exps/TSCD_VID/VID_tscd_large.py -c [path to your we
 
 <div align="center">
   <img src="assets/OVIS_Results.png" alt="OVIS Results" />
+  <p align="center">Table. 3. Performance comparison on OVIS validation set.</p>
 </div>
 
-[//]: # (<p align="center">)
+<div align="center">
 
-[//]: # ()
-[//]: # (![OVIS Results]&#40;./assets/OVIS_Results.png&#41;)
+  <img src="./visual/ovis/elephant.gif" width="480" height="360"/>
+  <img src="./visual/ovis/giant_panda.gif" width="480" height="360"/>
+  <img src="./visual/ovis/zebra.gif" width="480" height="360"/>
 
-[//]: # ()
-[//]: # (</p>)
+</div>
+<p align="center">Video. 2. Video visualization of TSCD detection in OVIS occlusion scenes</p>
 
-<p align="center">Table. 3. Performance comparison on OVIS validation set.</p>
+<div align="center">
 
-![OVIS_Visual](assets/OVIS.png)
+  ![OVIS_Visual](assets/OVIS.png)
 
-<p align="center">Fig. 3. Visual comparison of related methods on the OVIS dataset.</p>
+  <p align="center">Fig. 3. Visual comparison of related methods on the OVIS dataset.</p>
+
+</div>
+
 
 
 ## Acknowledgements
