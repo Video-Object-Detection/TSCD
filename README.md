@@ -173,9 +173,9 @@ python tools/tscd_demo.py -f exps/TSCD_VID/VID_tscd_large.py -c [path to your we
 
 <div align="center">
 
-  <img src="./visual/imagenet_vid/fox.gif" width="480" height="360"/>
-  <img src="./visual/imagenet_vid/horse.gif" width="480" height="360"/>
-  <img src="./visual/imagenet_vid/bear.gif" width="480" height="360"/>
+  <img src="./visual/imagenet_vid/fox.gif" width="360" height="270"/>
+  <img src="./visual/imagenet_vid/horse.gif" width="360" height="270"/>
+  <img src="./visual/imagenet_vid/bear.gif" width="360" height="270"/>
 
 </div>
 <p align="center">Video. 1. Video visualization of TSCD detection in ImageNet VID occlusion scenes</p>
@@ -200,9 +200,9 @@ python tools/tscd_demo.py -f exps/TSCD_VID/VID_tscd_large.py -c [path to your we
 
 <div align="center">
 
-  <img src="./visual/ovis/elephant.gif" width="480" height="360"/>
-  <img src="./visual/ovis/giant_panda.gif" width="480" height="360"/>
-  <img src="./visual/ovis/zebra.gif" width="480" height="360"/>
+  <img src="./visual/ovis/elephant.gif" width="360" height="270"/>
+  <img src="./visual/ovis/giant_panda.gif" width="360" height="270"/>
+  <img src="./visual/ovis/zebra.gif" width="360" height="270"/>
 
 </div>
 <p align="center">Video. 2. Video visualization of TSCD detection in OVIS occlusion scenes</p>
