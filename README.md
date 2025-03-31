@@ -171,29 +171,32 @@ python tools/tscd_demo.py -f exps/TSCD_VID/VID_tscd_large.py -c [path to your we
   <p align="center">Table. 2. Performance comparison with SOTA end-to-end video object detections on the ImageNet VID validation set.</p>
 </div>
 
-<div align="center">
+[//]: # (<div align="center">)
 
+[//]: # ()
+[//]: # ()
+[//]: # (  <img src="./visual/imagenet_vid/fox.gif" width="33%" height="210"/>)
 
-  <img src="./visual/imagenet_vid/fox.gif" width="33%" height="210"/>
+[//]: # ()
+[//]: # (  <img src="./visual/imagenet_vid/horse.gif" width="33%" height="210"/>)
 
-  <img src="./visual/imagenet_vid/horse.gif" width="33%" height="210"/>
+[//]: # ()
+[//]: # (  <img src="./visual/imagenet_vid/bear.gif" width="33%" height="210"/>)
 
-  <img src="./visual/imagenet_vid/bear.gif" width="33%" height="210"/>
+[//]: # ()
+[//]: # ()
+[//]: # (</div>)
 
+<div style="display: flex; justify-content: space-between;">
+
+ <img src="./visual/imagenet_vid/fox.gif" alt="Image 1" style="width: 33%; max-height: 100%; flex: 1;">
+
+ <img src="./visual/imagenet_vid/horse.gif" alt="Image 2" style="width: 33%; max-height: 100%; flex: 1;">
+
+ <img src="./visual/imagenet_vid/bear.gif" alt="Image 3" style="width: 33%; height: auto; flex: 1;">
 
 </div>
 
-[//]: # (<div style="display: flex; justify-content: space-between;">)
-
-[//]: # ( <img src="./visual/imagenet_vid/fox.gif" alt="Image 1" style="width: 33%; max-height: 100%; flex: 1;">)
-
-[//]: # ( <img src="./visual/imagenet_vid/horse.gif" alt="Image 2" style="width: 33%; max-height: 100%; flex: 1;">)
-
-[//]: # ( <img src="./visual/imagenet_vid/bear.gif" alt="Image 3" style="width: 33%; height: 100%; flex: 1;">)
-
-[//]: # (</div>)
-
-[//]: # (![fox]&#40;./visual/imagenet_vid/fox.gif&#41; ![horse]&#40;./visual/imagenet_vid/horse.gif&#41; ![bear]&#40;./visual/imagenet_vid/bear.gif&#41;)
 
 <p align="center">Video. 1. Video visualization of TSCD detection in ImageNet VID occlusion scenes</p>
 
@@ -215,27 +218,31 @@ python tools/tscd_demo.py -f exps/TSCD_VID/VID_tscd_large.py -c [path to your we
   <p align="center">Table. 3. Performance comparison on OVIS validation set.</p>
 </div>
 
-<div align="center">
+[//]: # (<div align="center">)
 
+[//]: # ()
+[//]: # ()
+[//]: # (  <img src="./visual/ovis/elephant.gif" width="33%" height="210"/>)
 
-  <img src="./visual/ovis/elephant.gif" width="33%" height="210"/>
+[//]: # ()
+[//]: # (  <img src="./visual/ovis/giant_panda.gif" width="33%" height="210"/>)
 
-  <img src="./visual/ovis/giant_panda.gif" width="33%" height="210"/>
+[//]: # ()
+[//]: # (  <img src="./visual/ovis/zebra.gif" width="33%" height="210"/>)
 
-  <img src="./visual/ovis/zebra.gif" width="33%" height="210"/>
+[//]: # ()
+[//]: # ()
+[//]: # (</div>)
 
+<div style="display: flex; justify-content: space-between;">
+
+ <img src="./visual/ovis/elephant.gif" alt="Image 1" style="width: 33%; max-height: 100%; flex: 1;">
+
+ <img src="./visual/ovis/giant_panda.gif" alt="Image 2" style="width: 33%; max-height: 100%; flex: 1;">
+
+ <img src="./visual/ovis/zebra.gif" alt="Image 3" style="width: 33%; height: auto; flex: 1;">
 
 </div>
-
-[//]: # (<div style="display: flex; justify-content: space-between;">)
-
-[//]: # ( <img src="./visual/ovis/elephant.gif" alt="Image 1" style="width: 33%; max-height: 100%; flex: 1;">)
-
-[//]: # ( <img src="./visual/ovis/giant_panda.gif" alt="Image 2" style="width: 33%; max-height: 100%; flex: 1;">)
-
-[//]: # ( <img src="./visual/ovis/zebra.gif" alt="Image 3" style="width: 33%; height: auto; flex: 1;">)
-
-[//]: # (</div>)
 
 <p align="center">Video. 2. Video visualization of TSCD detection in OVIS occlusion scenes</p>
 
