@@ -164,9 +164,9 @@ python tools/tscd_demo.py -f exps/TSCD_VID/VID_tscd_large.py -c [path to your we
 ## Main Results
 
 
-<div style="text-align: center; "><strong>ImageNet VID</strong></div>
+<p align="center"><strong>ImageNet VID</strong></p>
 
-
+<br/>
 
 <div align="center">
   <p align="center">Table. 2. Performance comparison with SOTA end-to-end video object detections on the ImageNet VID validation set.</p>
@@ -212,8 +212,9 @@ python tools/tscd_demo.py -f exps/TSCD_VID/VID_tscd_large.py -c [path to your we
 
 <br/>
 
-<div style="text-align: center; "><strong>OVIS</strong></div>
+<p align="center"><strong>OVIS</strong></p>
 
+<br/>
 
 <div align="center">
   <p align="center">Table. 3. Performance comparison on OVIS validation set.</p>
