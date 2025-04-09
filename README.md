@@ -39,11 +39,11 @@ pip3 install -v -e .
 
 OVIS is used to validate the effect of detecting occluded objects.The training set consists of 607 videos. Because only the annotation of the training set is publicly available, the original OVIS training set was partitioned into training and validation sets with an approximate ratio of 7:3 for each category.
 
+<p align="center">Table 1. Number of labels for each category in the training and validation sets.</p>
 
 | The Number of Training Labels                                                                   | The Number of Validation Labels                                                            |
 |-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
 | ![The Number of Training Labels](OVIS_Preprocess/division/datasets_visual/Training_Labels.png) | ![The Number of Validation Labels](OVIS_Preprocess/division/datasets_visual/Validation_Labels.png) |
-<p align="center">Table 1. Number of labels for each category in the training and validation sets.</p>
 
 [//]: # (![The Number of Training Labels]&#40;ovis_pre-process/division/datasets_visual/Training_Labels.png&#41;)
 
@@ -53,6 +53,8 @@ OVIS is used to validate the effect of detecting occluded objects.The training s
 [//]: # (![The Number of Validation Labels]&#40;ovis_pre-process/division/datasets_visual/Validation_Labels.png&#41;)
 
 [//]: # (<div style="text-align: center;">Fig 2. Number of labels for each category in the validation set.</div>)
+
+<br/>
 
 ![Label Ratios by Category in Dataset](OVIS_Preprocess/division/datasets_ratio/Label_Ratios.png)
 <p align="center">Fig 1. Ratio of labels for each category in the training and validation sets</p>
@@ -167,9 +169,11 @@ python tools/tscd_demo.py -f exps/TSCD_VID/VID_tscd_large.py -c [path to your we
 
 
 <div align="center">
-  <img src="assets/ImageNet_VID_Results.png" alt="ImageNet VID Results" />
   <p align="center">Table. 2. Performance comparison with SOTA end-to-end video object detections on the ImageNet VID validation set.</p>
+  <img src="assets/ImageNet_VID_Results.png" alt="ImageNet VID Results" />
 </div>
+
+<br/>
 
 <div align="center">
 
@@ -212,9 +216,11 @@ python tools/tscd_demo.py -f exps/TSCD_VID/VID_tscd_large.py -c [path to your we
 
 
 <div align="center">
-  <img src="assets/OVIS_Results.png" alt="OVIS Results" />
   <p align="center">Table. 3. Performance comparison on OVIS validation set.</p>
+  <img src="assets/OVIS_Results.png" alt="OVIS Results" />
 </div>
+
+<br/>
 
 <div align="center">
 
