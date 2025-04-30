@@ -2,7 +2,7 @@
 
 # Task-Specific SpatioTemporal Context-Aware Decoupling for Occluded Video Object Detection. (This GitHub account doesn't reveal any information about the author, sticking to the principle of double-blind.)
 ## Update
-* **` April. 30th, 2025`**:  We have performed comparative experiments with mainstream tracking-by-detection methods on the OVIS datasets(see Fig.4).
+* **` April. 30th, 2025`**:  We have performed comparative experiments with mainstream tracking-by-detection methods on the OVIS datasets(see Fig.5).
 
 ## Introduction
 
@@ -258,11 +258,28 @@ python tools/tscd_demo.py -f exps/TSCD_VID/VID_tscd_large.py -c [path to your we
 
 </div>
 
+<br/>
+
+<div align="center">
+  <p align="center">Table. 4. Performance comparison with SOTA end-to-end video object detections on the OVIS validation set.</p>
+  <img src="assets/VOD_OVIS.png" alt="VOD_OVIS Results" />
+</div>
+
+<br/>
+
+<div align="center">
+
+  ![VOD OVIS Visual](assets/VOD_OVIS_Visual.png)
+
+  <p align="center">Fig. 4. Visual comparison of competing models on the OVIS dataset.</p>
+
+</div>
+
 <div align="center">
 
   ![Comparison_Tracking-by-Detection_Visual](assets/Track-by-Detection_OVIS.png)
 
-  <p align="center">Fig. 4. Visual comparison of mainstream tracking-by-detection methods (YOLOX-L) on the OVIS dataset.</p>
+  <p align="center">Fig. 5. Visual comparison of mainstream tracking-by-detection methods (YOLOX-L) on the OVIS dataset.</p>
     
   <p align="left" style="text-indent: 2em">Since tracking-by-detection methods are based on the post-processing of single-frame detectors, they cannot effectively improve the detection results, so we do not compare the evaluation metrics (mAP@IoU=0.5). In Fig. 4, these methods are not as effective as our TSCD in the occlusion scenarios.</p>
 </div>
