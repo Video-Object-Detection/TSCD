@@ -263,10 +263,10 @@ python tools/tscd_demo.py -f exps/TSCD_VID/VID_tscd_large.py -c [path to your we
   ![Comparison_Tracking-by-Detection_Visual](assets/Track-by-Detection_OVIS.png)
 
   <p align="center">Fig. 4. Visual comparison of mainstream tracking-by-detection methods (YOLOX-L) on the OVIS dataset.</p>
-
+    
+  <p align="left" style="text-indent: 2em">Since tracking-by-detection methods are based on the post-processing of single-frame detectors, they cannot effectively improve the detection results, so we do not compare the evaluation metrics (mAP@IoU=0.5). In Fig. 4, these methods are not as effective as our TSCD in the occlusion scenarios.</p>
 </div>
 
-Since tracking-by-detection methods are based on the post-processing of single-frame detectors, they do not effectively improve the detection results, so we do not compare the evaluation metrics (mAP@IoU=0.5). In Fig. 4, these methods are not as effective as our TSCD in the occlusion scenarios.
 
 
 ## Acknowledgements
