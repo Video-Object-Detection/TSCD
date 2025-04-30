@@ -1,7 +1,8 @@
 
 
 # Task-Specific SpatioTemporal Context-Aware Decoupling for Occluded Video Object Detection. (This GitHub account doesn't reveal any information about the author, sticking to the principle of double-blind.)
-
+## Update
+* **` April. 30th, 2025`**:  We have performed comparative experiments with mainstream tracking-by-detection methods on the OVIS datasets(see Fig.4).
 
 ## Introduction
 
@@ -257,6 +258,15 @@ python tools/tscd_demo.py -f exps/TSCD_VID/VID_tscd_large.py -c [path to your we
 
 </div>
 
+<div align="center">
+
+  ![Comparison_Tracking-by-Detection_Visual](assets/Track-by-Detection_OVIS.png)
+
+  <p align="center">Fig. 4. Visual comparison of mainstream tracking-by-detection methods (YOLOX-L) on the OVIS dataset.</p>
+
+</div>
+
+Since tracking-by-detection methods are based on the post-processing of single-frame detectors, they do not effectively improve the detection results, so we do not compare the evaluation metrics (mAP@IoU=0.5). In Fig. 4, these methods are not as effective as our TSCD in the occlusion scenarios.
 
 
 ## Acknowledgements
