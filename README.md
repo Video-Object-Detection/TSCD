@@ -48,17 +48,17 @@ OVIS is used to validate the effect of detecting occluded objects.The training s
 
 [//]: # (![The Number of Training Labels]&#40;ovis_pre-process/division/datasets_visual/Training_Labels.png&#41;)
 
-[//]: # (<div style="text-align: center;">Fig 1. Number of labels for each category in the training set.</div>)
+[//]: # (<div style="text-align: center;">Fig. 1. Number of labels for each category in the training set.</div>)
 
 [//]: # ()
 [//]: # (![The Number of Validation Labels]&#40;ovis_pre-process/division/datasets_visual/Validation_Labels.png&#41;)
 
-[//]: # (<div style="text-align: center;">Fig 2. Number of labels for each category in the validation set.</div>)
+[//]: # (<div style="text-align: center;">Fig. 2. Number of labels for each category in the validation set.</div>)
 
 <br/>
 
 ![Label Ratios by Category in Dataset](OVIS_Preprocess/division/datasets_ratio/Label_Ratios.png)
-<p align="center">Fig 1. Ratio of labels for each category in the training and validation sets</p>
+<p align="center">Fig. 1. Ratio of labels for each category in the training and validation sets</p>
 
 Step 1. Download the OVIS dataset from [OVIS official website] and organize it as follows:
 ```shell
@@ -170,7 +170,7 @@ python tools/tscd_demo.py -f exps/TSCD_VID/VID_tscd_large.py -c [path to your we
 <br/>
 
 <div align="center">
-  <p align="center">Table. 2. Performance comparison with SOTA end-to-end video object detections on the ImageNet VID validation set.</p>
+  <p align="center">Table 2. Performance comparison with SOTA end-to-end video object detections on the ImageNet VID validation set.</p>
   <img src="assets/ImageNet_VID_Results.png" alt="ImageNet VID Results" />
 </div>
 
@@ -218,7 +218,7 @@ python tools/tscd_demo.py -f exps/TSCD_VID/VID_tscd_large.py -c [path to your we
 <br/>
 
 <div align="center">
-  <p align="center">Table. 3. Performance comparison on OVIS validation set.</p>
+  <p align="center">Table 3. Performance comparison on OVIS validation set.</p>
   <img src="assets/OVIS_Results.png" alt="OVIS Results" />
 </div>
 
@@ -261,7 +261,7 @@ python tools/tscd_demo.py -f exps/TSCD_VID/VID_tscd_large.py -c [path to your we
 <br/>
 
 <div align="center">
-  <p align="center">Table. 4. Performance comparison with SOTA end-to-end video object detections on the OVIS validation set.</p>
+  <p align="center">Table 4. Performance comparison with SOTA end-to-end video object detections on the OVIS validation set.</p>
   <img src="assets/VOD_OVIS.png" alt="VOD_OVIS Results" />
 </div>
 
@@ -281,7 +281,7 @@ python tools/tscd_demo.py -f exps/TSCD_VID/VID_tscd_large.py -c [path to your we
 
   <p align="center">Fig. 5. Visual comparison of mainstream tracking-by-detection methods (YOLOX-L) on the OVIS dataset.</p>
     
-  <p align="left" style="text-indent: 2em">Since tracking-by-detection methods are based on the post-processing of single-frame detectors, they cannot effectively improve the detection results, so we do not compare the evaluation metrics (mAP@IoU=0.5). In Fig. 4, these methods are not as effective as our TSCD in the occlusion scenarios.</p>
+  <p align="left" style="text-indent: 2em">Since tracking-by-detection methods are based on the post-processing of single-frame detectors, they cannot effectively improve the detection results, so we do not compare the evaluation metrics (mAP@IoU=0.5). In Fig. 5, these methods are not as effective as our TSCD in the occlusion scenarios.</p>
 </div>
 
 
